@@ -1,6 +1,7 @@
 # satisfies this lab
 def turn(board)
   puts "Please enter 1-9:"
+  index = 0
   user_input = gets.strip
   input_to_index(user_input)
   move(board, index, user_char)
