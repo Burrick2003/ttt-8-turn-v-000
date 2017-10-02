@@ -38,7 +38,7 @@ end
 
 # Converts user input to integer array index
 def input_to_index(user_input)
-  index = user_input.to_i - 1
+  index = (user_input.to_i - 1)
 end
 
 # Sets board at index to user_char with default value X
