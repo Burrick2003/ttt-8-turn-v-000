@@ -5,7 +5,7 @@ def turn(board)
   #user_char = "X"
   user_input = gets.strip
   input_to_index(user_input)
-  move(board, index = 0, user_char = "X")
+  move(board, index = 4, user_char = "X")
   display_board(board)
 end
 
