@@ -1,4 +1,4 @@
-# satisfies this lab
+# Repeats prompt until valid move is made and redraws board
 def turn(board)
   puts "Please enter 1-9:"
   user_char = "X"
