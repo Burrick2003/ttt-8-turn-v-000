@@ -5,7 +5,6 @@ def turn(board, index, user_char="X")
   input_to_index(user_input)
   move(board, index, user_char)
   display_board(board)
-
 end
 
 # Checks board if index is valid (0 to 8) and if board at index is taken using #position_taken?
