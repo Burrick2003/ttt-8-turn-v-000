@@ -1,7 +1,7 @@
 # satisfies this lab
 def turn(board)
   puts "Please enter 1-9:"
-  
+
   user_input = gets.strip
   input_to_index(user_input)
   move(board, index, user_char = "X")
@@ -41,6 +41,6 @@ def input_to_index(user_input)
 end
 
 # Sets board at index to user_char with default value X
-def move(board, index = 0, user_char="X")
+def move(board, index, user_char)
   board[index] = user_char
 end
