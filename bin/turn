@@ -2,8 +2,8 @@
 require_relative '../lib/turn.rb'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-#index = 1
-#user_char = "X"
+index = 1
+user_char = "X"
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
