@@ -6,7 +6,7 @@ def turn(board)
   index = input_to_index(user_input)
   if valid_move?(board, index)
     move(board, index, user_char)
-  else turn(board)
+  else turn(board) #restarts turn if invalid move
   end
   display_board(board)
 end
