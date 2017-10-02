@@ -41,6 +41,6 @@ def input_to_index(user_input)
 end
 
 # Sets board at index to user_char with default value X
-def move(board, index, user_char="X")
+def move(board, index = 0, user_char="X")
   board[index] = user_char
 end
