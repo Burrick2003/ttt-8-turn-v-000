@@ -1,3 +1,9 @@
+# satisfies this lab
+def turn
+  puts "Please enter 1-9:"
+  user_input = gets.strip
+end
+
 # Checks board if index is valid (0 to 8) and if board at index is taken using #position_taken?
 def valid_move?(board, index)
     if index.between?(0, 8) && (position_taken?(board, index) == false)
