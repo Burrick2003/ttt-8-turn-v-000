@@ -7,4 +7,3 @@ require_relative '../lib/turn.rb'
   input_to_index(user_input)
   move(board, index, user_char)
   display_board(board)
-
